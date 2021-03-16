@@ -1,6 +1,8 @@
 # data preprocess
 Java dataset preprocess
 
+**Note:** You need to change the path in the .py file to your own file path.
+
 ## How to split code?
 1. code sequence transform to .java file
     * run the method `data2java` of `gen_cfg.py`

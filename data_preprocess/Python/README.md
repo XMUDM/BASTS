@@ -1,6 +1,8 @@
 # data preprocess
 Python dataset preprocess
 
+**Note:** You need to change the path in the .py file to your own file path.
+
 ## How to split code?
 1. code sequence transform to .py file
    * run `getFromatPython.py`
