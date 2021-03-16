@@ -17,6 +17,6 @@
 3. Output the test data comment:
    
     `python translate_BASTS.py`
-4. get the evaluation metric(Automatic Evaluation):
+4. Get the evaluation metric(Automatic Evaluation):
    
     `python get_metric.py`
