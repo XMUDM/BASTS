@@ -65,7 +65,7 @@ def get_metor(ref, output):
 if __name__ == "__main__":
     dataName = 'Java'  # Default dataset is java
     # dataName = 'Python'
-    ref = 'code_sum_dataset/' + dataName + 'test.token.nl'
+    ref = 'code_sum_dataset/' + dataName + '/test.token.nl'
     workbook = xlwt.Workbook(encoding='utf-8')
     sheet1 = workbook.add_sheet("test", cell_overwrite_ok=True)
     sheet1.write(0, 0, "epoch") 
