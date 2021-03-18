@@ -1,6 +1,8 @@
 # BASTS
 This is the code repository for our ICPC 2021 paper "Improving Code Summarization with Block-wise Abstract Syntax Tree Splitting".
 
+[Arxiv Preprint](https://arxiv.org/abs/2103.07845)
+
 
 ## Step through
 1. Code splitting. As the limitation of LFS, the splitting code data set and experiment dataset can be downloaded from [Google Drive](https://drive.google.com/drive/folders/12N-pBzlHhoIgSku7onVPvQrc_JQJw1Q9?usp=sharing).
