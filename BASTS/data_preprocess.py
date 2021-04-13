@@ -58,9 +58,9 @@ def build_vocab(train_path, vocab_path):
 
 def fix_length(nl, code):
     nl = np.concatenate(([BOS_WORD], nl))
-    if len(nl) >= MAX_LEN_NL:   # 如果>=30 就取30。再接一个end
+    if len(nl) >= MAX_LEN_NL:
         nl = np.concatenate((nl[0:MAX_LEN_NL], [EOS_WORD]))
-    else: # 如果<30,再接一个end，再补，其实就是说30是不算end之前的30。
+    else:
         nl = np.concatenate((nl, [EOS_WORD], [BLANK_WORD for _ in range(MAX_LEN_NL - len(nl))]))
     if len(code) > MAX_LEN_CODE:
         news = code[0:MAX_LEN_CODE]
