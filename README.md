@@ -5,7 +5,7 @@ This is the code repository for our ICPC 2021 paper "Improving Code Summarizatio
 
 
 ## Step through
-1. Code splitting. As the limitation of LFS, the splitting code data set and experiment dataset can be downloaded from [Google Drive](https://drive.google.com/drive/folders/12N-pBzlHhoIgSku7onVPvQrc_JQJw1Q9?usp=sharing).
+1. Code splitting. As the limitation of LFS, the splitting code data set and experiment dataset can be downloaded from [Google Drive](https://drive.google.com/drive/folders/12N-pBzlHhoIgSku7onVPvQrc_JQJw1Q9?usp=sharing) or [阿里云盘](https://www.aliyundrive.com/s/pG3c2WQaQzy).
 
 	See the readme of the `data_preprocess` folder for details.
 
